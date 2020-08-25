@@ -1,0 +1,178 @@
+:root {
+    --black: rgba(0, 0, 0, 1.0);
+    --gray0: rgba(28, 28, 30, 1.0);
+    --gray1: rgba(44, 44, 46, 1.0);
+    --gray2: rgba(58, 58, 60, 1.0);
+    --gray3: rgba(72, 72, 74, 1.0);
+    --gray4: rgba(99, 99, 102, 1.0);
+    --gray5: rgba(162, 162, 167, 1.0);
+    --white: rgba(255, 255, 255, 1.0);
+
+    --blue: rgba(10, 132, 255, 1.0);
+    --brown: rgba(172, 142, 104, 1.0);
+    --green: rgba(50, 215, 75, 1.0);
+    --indigo: rgba(94, 92, 230, 1.0);
+    --orange: rgba(255, 159, 10, 1.0);
+    --pink: rgba(255, 55, 95, 1.0);
+    --purple: rgba(191, 90, 242, 1.0);
+    --red: rgba(255, 69, 58, 1.0);
+    --teal: rgba(100, 210, 255, 1.0);
+    --yellow: rgba(255, 214, 10, 1.0);
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.card {
+    font-family: SFPro;
+    color: var(--white);
+    text-align: center;
+    background-color: var(--gray0);
+    font-size: 3.0vh;
+    height: auto; 
+    width: 70vw;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+pre, code {
+    font-family: SFMono;
+    background-color: var(--gray2);
+    white-space: pre-wrap;
+    padding: 15px;
+    border: 5px solid var(---gray2);
+    border-radius: 3px;
+    line-height: 4em;
+    text-align:justify;
+    background-origin:content-box;
+}
+
+.front {
+    margin-top: 15vh;
+}
+
+.cloze {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.cFront, .cBack {
+    margin-top: 15vh;
+}
+
+ul { 
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    list-style-position: inside; 
+    margin-left: -4%;
+}
+
+em, i {
+    color: var(--yellow);
+}
+
+strong, b {
+    color: var(--green);
+}
+
+u {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: var(--purple);
+}
+
+hr {
+    margin-top: 8vh;
+    margin-bottom: 9vh;
+    border: 4px solid var(--gray2);
+    border-radius: 5px;
+    max-width: 60vw;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    max-height: 20vh;
+    border: 3px solid var(--gray2);
+    border-radius: 5px;
+}
+
+
+.mediaContainer {
+    display: flex;
+
+}
+
+.imgBox {
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    z-index: 9999;
+}
+
+.imgBox:hover, imgBox:focus, imgBox:active {
+    transform: scale(3.0) translateY(-5vh);
+    max-width: 50vw;
+}
+
+.mermaid  {
+    user-select: none;       
+    color: var(--white);
+    z-index: -1;
+}
+
+.tags {
+    position: fixed;
+    top: 3vh;
+    right: 4vw;
+    font-family: SFMono;
+    color: var(--gray2);
+    font-size: 16px;
+    font-weight: 800;
+    user-select: none;
+    transition: color 0.2s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+
+.tags:hover {
+    color: var(--white)
+}
+
+.tags span#basic, .tags span#mcat, .tags span#histology, 
+.tags span#physiology, .tags span#biochemistry, tags span#cloze { 
+    transition: color 0.10s ease-in-out;
+}
+
+.tags:hover span#basic {
+    color: var(--blue);
+}
+
+.tags:hover span#cloze {
+    color: var(--red);
+}
+
+.tags:hover span#biochemistry {
+    color: var(--green);
+}
+
+.tags:hover span#histology {
+    color: var(--orange);
+}
+
+.tags:hover span#physiology {
+    color: var(--pink);
+}
+
+.tags:hover span#mcat {
+    color: var(--red);
+}
+
