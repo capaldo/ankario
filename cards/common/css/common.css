@@ -102,6 +102,11 @@ img {
     border-radius: 5px;
 }
 
+.note {
+    font-family: SFMono;
+    font-size: 8px;
+    color: var(--indigo);
+}
 
 .mediaContainer {
     display: flex;
