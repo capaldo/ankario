@@ -10,9 +10,6 @@ Some plugins are required in order to achieve an appearance akin to what I have 
 
 ## Features
 
-### Tooltips
-Each card has a "simple-popup" field allowing for the addition of a tooltip when text is added to the field. This is a great way to include acronyms or extra information without crowding the card with too much text.
-
 ### Mermaid Graphs
 Getting quick graphs into Anki can be difficult when you want to make your own. That's why each of the cards templates include the [mermaid.js](https://github.com/knsv/mermaid) API to allow for generation of graphs on-the-fly. For more information on syntax and chart types please refer to the API's [documentation](https://mermaidjs.github.io). Currently, the best way for syntax to be written is the following: 
 ```mermaid
