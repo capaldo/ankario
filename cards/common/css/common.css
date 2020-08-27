@@ -108,11 +108,6 @@ img {
     color: var(--indigo);
 }
 
-.mediaContainer {
-    display: flex;
-
-}
-
 .imgBox {
     display: inline-block;
     transform: perspective(1px) translateZ(0);
