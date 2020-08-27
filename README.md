@@ -15,7 +15,7 @@ Getting quick graphs into Anki can be difficult when you want to make your own. 
 ```mermaid
 graph LR; A-->B; B-->C;
 ```
-Keeping it in one line consistently produces the graph on both desktop (macOS) and mobile (iOS). Currently the graph rendering is only available for Basic cards.
+Keeping it in one line consistently produces the graph on both desktop (macOS) and mobile (iOS). 
 
 ### Color Scheme 
 | Color        | RGB Code      |
