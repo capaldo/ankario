@@ -1,5 +1,5 @@
 # ankiBW
-A modern Anki theme/setup inspired by my current terminal theme, [boogiewoogie](https://github.com/capaldo/boogiewoogie). The color scheme is partially inspired by Piet Mondrian's paintings *Victory Boogie Woogie* and *Broadway Boogie Woogie*. I'm mainly including this as a reference for others if they're looking to customize their setups as much as I have but you're free to copy it verbatim. Some things are specific to myself (such as my card kind names) so please be aware of this and alter the files accordingly.
+A modern Anki theme/setup inspired by my current terminal theme, [boogiewoogie](https://github.com/capaldo/boogiewoogie). The color scheme is partially inspired by Piet Mondrian's paintings *Victory Boogie Woogie* and *Broadway Boogie Woogie*. I'm mainly including this as a reference for others if they're looking to customize their setups as much as I have but you're free to copy it verbatim. Some things are specific to myself (such as my card kind names) so please be aware of this and alter the files accordingly. A preview of the cards can be seen [here](misc/tags.gif). 
 
 **Currently tags fail to correctly display on mobile (iOS). Due to its evolving nature, I'm holding off on a workaround for the time being.**
 
