@@ -13,7 +13,7 @@ window.setTimeout(function(){
 	changeText(/Physiology::/, ''),
 	changeText(/Histology/, '<span id="histology" style="font-size:25px;position:relative;top:2px;">&#xe222;</span>'),
 	changeText(/Histology::/, ''),
-	changeText(/Biochemistry/, '<span id="biochemistry" style="font-size:25px;position:relative;top:2px;margin-right:8px;">&#xf63a;</span>'),
+	changeText(/Biochemistry/, '<span id="biochemistry" style="font-size:25px;position:relative;top:2px;margin-right:8px;">&#xfbdf;</span>'),
 	changeText(/Biochemistry::/, ''),
 	changeText(/\:\:/g, '<span style="font-size:25px;margin-left:10px;margin-right:10px;position:relative;top:3px;">&#x2023;</span>')
 }, 0)
