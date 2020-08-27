@@ -4,7 +4,7 @@ A modern Anki theme/setup inspired by my current terminal theme, [boogiewoogie](
 **Currently tags fail to correctly display on mobile (iOS). Due to its evolving nature, I'm holding off on a workaround for the time being.**
 
 ## Prerequisites
-Some plugins are required in order to achieve an appearance akin to what I have shown in the screenshots. These include: 
+Some plugins are required in order for the cards to display properly. These include: 
 * [Hierarchal Tags](https://github.com/pneff/anki-hierarchical-tags)
 * a font patched with nerd-font
 
