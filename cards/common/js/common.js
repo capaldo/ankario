@@ -20,7 +20,7 @@ window.setTimeout(function(){
 
 var config = {
     startOnLoad: true,
-    theme: 'forest',
+    theme: 'neutral',
     flowchart: {
 	useMaxWidth: true,
 	htmlLabels: true,
