@@ -121,9 +121,17 @@ img {
     max-width: 50vw;
 }
 
+.mermWrap {
+    border-radius: 10px;
+    background: var(--gray2);
+    padding: 20px;
+    height: auto;
+    width: 57vw;
+    margin:0 auto;
+}
+
 .mermaid  {
     user-select: none;       
-    color: var(--white);
     z-index: -1;
 }
 
