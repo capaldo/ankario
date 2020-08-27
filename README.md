@@ -8,10 +8,6 @@ Some plugins are required in order to achieve an appearance akin to what I have 
 * [Hierarchal Tags](https://github.com/pneff/anki-hierarchical-tags)
 * a font patched with nerd-font
 
-### Internal Files
-In addition to the above, additional styling has been added via the internal files for Anki. This has only been tested on **macOS** but I suspect
-it should work just fine on the various Linux distributions. I'm unsure how it would work on windows.
-
 ## Features
 
 ### Tooltips
