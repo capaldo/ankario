@@ -3,9 +3,14 @@ changeTags = function(text, newText){
     $('.tags').html(currentText.replace(text,newText));
 };
 
-changeBasicText = function(text, newText){
-    var currentText = $('.front').html();
-    $('.front').html(currentText.replace(text,newText));
+changeBasicFrontText = function(text, newText){
+    var currentText = $('.basicFront').html();
+    $('.basicFront').html(currentText.replace(text,newText));
+};
+
+changeBasicBackText = function(text, newText){
+    var currentText = $('.basicBack').html();
+    $('.basicBack').html(currentText.replace(text,newText));
 };
 
 window.setTimeout(function(){
@@ -21,7 +26,8 @@ window.setTimeout(function(){
 	changeTags(/Biochemistry/, '<span id="biochemistry" style="font-size:20px;position:relative;top:2px;margin-right:8px;">&#xfbdf;</span>'),
 	changeTags(/Biochemistry::/, ''),
 	changeTags(/\:\:/g, '<span style="font-size:20px;margin-left:10px;margin-right:10px;position:relative;top:3px;">&#x2023;</span>'),
-	changeBasicText(/(\*)/gm, '<span style="font-size:40px;font-weight:bold;color:var(--purple);">*</span>')
+	changeBasicFrontText(/(\*)/gm, '<span style="font-size:30px;font-weight:bold;color:var(--indigo);">*</span>'),
+	changeBasicBackText(/(\*)/gm, '<span style="font-size:30px;font-weight:bold;color:var(--indigo);">*</span>')
 }, 0)
 
 
