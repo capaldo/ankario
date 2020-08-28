@@ -59,8 +59,8 @@ pre, code {
     font-weight: bold;
 }
 
-.cFront, .cBack {
-    margin-top: 15vh;
+.clozeText {
+    margin-top: 20vh;
 }
 
 ul { 
