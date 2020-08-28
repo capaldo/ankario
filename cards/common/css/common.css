@@ -30,7 +30,7 @@
     color: var(--white);
     text-align: center;
     background-color: var(--gray0);
-    font-size: 3.0vh;
+    font-size: 3.5vh;
     height: auto; 
     width: 70vw;
     margin-bottom: auto;
@@ -51,7 +51,7 @@ pre, code {
 }
 
 .front {
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .cloze {
