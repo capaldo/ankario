@@ -50,7 +50,7 @@ pre, code {
     background-origin:content-box;
 }
 
-.front {
+.basicFront {
     margin-top: 15vh;
 }
 
@@ -60,7 +60,7 @@ pre, code {
 }
 
 .clozeText {
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 ul { 
@@ -100,6 +100,7 @@ img {
     max-height: 20vh;
     border: 3px solid var(--gray2);
     border-radius: 5px;
+    filter: invert(1);
 }
 
 .note {
